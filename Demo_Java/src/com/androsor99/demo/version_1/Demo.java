@@ -38,11 +38,4 @@ public class Demo {
     protected Object clone() throws CloneNotSupportedException {
         return super.clone();
     }
-
-    @Override
-    public String toString() {
-        return "Demo{" +
-                "name='" + name + '\'' +
-                '}';
-    }
 }
